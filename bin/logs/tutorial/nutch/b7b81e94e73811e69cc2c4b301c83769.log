@@ -1,0 +1,296 @@
+2017-01-30 16:09:10 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: tutorial)
+2017-01-30 16:09:10 [scrapy.utils.log] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'tutorial.spiders', 'ROBOTSTXT_OBEY': True, 'SPIDER_MODULES': ['tutorial.spiders'], 'LOG_FILE': 'logs/tutorial/nutch/b7b81e94e73811e69cc2c4b301c83769.log', 'BOT_NAME': 'tutorial'}
+2017-01-30 16:09:10 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats']
+2017-01-30 16:09:10 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.robotstxt.RobotsTxtMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-01-30 16:09:10 [scrapy.middleware] WARNING: Disabled DeltaFetch: Unable to find scrapy.cfg file to infer project data dir
+2017-01-30 16:09:10 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-01-30 16:09:10 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2017-01-30 16:09:10 [scrapy.core.engine] INFO: Spider opened
+2017-01-30 16:09:10 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-01-30 16:09:10 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-01-30 16:09:10 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://nutch.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/> (referer: None)
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.cafepress.com': <GET http://www.cafepress.com/nutch>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.elasticsearch.org': <GET http://www.elasticsearch.org/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'twitter.com': <GET https://twitter.com/ApacheNutch>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'search.maven.org': <GET http://search.maven.org/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 't.co': <GET http://t.co/k3VLhbJQhg>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'mongodb.org': <GET http://mongodb.org/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'events.linuxfoundation.org': <GET http://events.linuxfoundation.org/events/apachecon-europe>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'sched.co': <GET http://sched.co/1pbE15n>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.google-melange.com': <GET https://www.google-melange.com/gsoc/homepage/google/gsoc2014>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.us.apachecon.com': <GET http://www.us.apachecon.com/c/acus2009/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.youtube.com': <GET https://www.youtube.com/watch?v=rIv3Js-zBpE>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'code.google.com': <GET http://code.google.com/p/crawler-commons/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.brics.dk': <GET http://www.brics.dk/automaton/automaton>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.mail-archive.com': <GET http://www.mail-archive.com/dev@nutch.apache.org/msg03581.html>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.eu.apachecon.com': <GET http://www.eu.apachecon.com/c/aceu2009/>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'eu.apachecon.com': <GET http://eu.apachecon.com/c/aceu2009/sessions/197>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'blog.foofactory.fi': <GET http://blog.foofactory.fi/2007/03/twice-speed-half-size.html>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'creativecommons.org': <GET http://creativecommons.org/press-releases/entry/5064>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'osuosl.org': <GET http://osuosl.org/news_folder/nutch>
+2017-01-30 16:09:10 [scrapy.spidermiddlewares.offsite] DEBUG: Filtered offsite request to 'www.flickr.com': <GET https://www.flickr.com/photos/andrewfhart/8106189987/>
+2017-01-30 16:09:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/index.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/index.html>
+{'url': 'https://nutch.apache.org/index.html'}
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.5.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://lucene.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/2.0/CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/2.1/CHANGES-2.1.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/2.2/2.2-CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/1.5.1/CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/1.6/CHANGES_1.6.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/licenses/LICENSE-2.0> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.5.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lucene.apache.org/solr/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-0.8.1.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-0.9.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.0.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/2.0/CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/2.1/CHANGES-2.1.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/2.2/2.2-CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://tika.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/1.5.1/CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/1.6/CHANGES_1.6.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/licenses/LICENSE-2.0>
+{'url': 'http://www.apache.org/licenses/LICENSE-2.0'}
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.1.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.2.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.4.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/CHANGES-1.3.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lucene.apache.org/solr/>
+{'url': 'http://lucene.apache.org/solr/'}
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_04_21.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-0.8.1.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-0.9.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.0.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tika.apache.org/1.2/index.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/1.7/1.7-CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/2.2.1/CHANGES-2.2.1.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.1.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.2.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.4.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/CHANGES-1.3.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_04_21.txt>
+{'url': 'http://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_04_21.txt'}
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/1.8/CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://issues.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12319941>
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/dyn/closer.cgi/nutch/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/1.7/1.7-CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tika.apache.org/1.2/index.html>
+{'url': 'http://tika.apache.org/1.2/index.html'}
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/2.2.1/CHANGES-2.2.1.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/1.8/CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.apache.org/dist/nutch/1.9/CHANGES.txt> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:11 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/dyn/closer.cgi/nutch/>
+{'url': 'http://www.apache.org/dyn/closer.cgi/nutch/'}
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://svn.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET http://svn.apache.org/viewcvs.cgi/nutch/trunk/CHANGES.txt?rev=233150>
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET http://svn.apache.org/viewcvs.cgi/nutch/branches/branch-0.7/CHANGES.txt?rev=292986>
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET http://svn.apache.org/viewcvs.cgi/nutch/branches/branch-0.7/CHANGES.txt?rev=390158>
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET http://svn.apache.org/viewvc/nutch/tags/release-0.8/CHANGES.txt?view=markup>
+2017-01-30 16:09:11 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/robots.txt> from <GET http://s.apache.org/robots.txt>
+2017-01-30 16:09:11 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.apache.org/dist/nutch/1.9/CHANGES.txt>: HTTP status code is not handled or not allowed
+2017-01-30 16:09:11 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://avro.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://avro.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://accumulo.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://avro.apache.org/>
+{'url': 'http://avro.apache.org/'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://accumulo.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://hbase.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://accumulo.apache.org/>
+{'url': 'http://accumulo.apache.org/'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://issues.apache.org/jira/browse/NUTCH-1591> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://wiki.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hbase.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://cassandra.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://s.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://issues.apache.org/jira/browse/NUTCH-1591>
+{'url': 'https://issues.apache.org/jira/browse/NUTCH-1591'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://issues.apache.org/jira/browse/NUTCH-1047> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hbase.apache.org/>
+{'url': 'http://hbase.apache.org/'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://cassandra.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://issues.apache.org/jira/browse/NUTCH-1047>
+{'url': 'https://issues.apache.org/jira/browse/NUTCH-1047'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://wicket.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://nutch.apache.org/downloads.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://cassandra.apache.org/>
+{'url': 'http://cassandra.apache.org/'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/NutchRESTAPI> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://wiki.apache.org/nutch/NutchPropertiesCompleteList> from <GET http://wiki.apache.org/nutch/NutchPropertiesCompleteList>
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://wicket.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/LPB> from <GET http://s.apache.org/LPB>
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/foundation/thanks.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/nutch11> from <GET http://s.apache.org/nutch11>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/nutch10> from <GET http://s.apache.org/nutch10>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/1zE> from <GET http://s.apache.org/1zE>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/oHY> from <GET http://s.apache.org/oHY>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/nutch_2.3> from <GET http://s.apache.org/nutch_2.3>
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://issues.apache.org/jira/browse/NUTCH-841> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/1.9-release> from <GET http://s.apache.org/1.9-release>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/PGa> from <GET http://s.apache.org/PGa>
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://nutch.apache.org/downloads.html>
+{'url': 'http://nutch.apache.org/downloads.html'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/foundation/sponsorship.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/NutchRESTAPI>
+{'url': 'https://wiki.apache.org/nutch/NutchRESTAPI'}
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://wicket.apache.org/>
+{'url': 'http://wicket.apache.org/'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/security/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/foundation/thanks.html>
+{'url': 'http://www.apache.org/foundation/thanks.html'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/NutchPropertiesCompleteList> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/licenses/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://issues.apache.org/jira/browse/NUTCH-841>
+{'url': 'https://issues.apache.org/jira/browse/NUTCH-841'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/foundation/sponsorship.html>
+{'url': 'http://www.apache.org/foundation/sponsorship.html'}
+2017-01-30 16:09:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/version_control.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/security/>
+{'url': 'http://www.apache.org/security/'}
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/NutchPropertiesCompleteList>
+{'url': 'https://wiki.apache.org/nutch/NutchPropertiesCompleteList'}
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/licenses/>
+{'url': 'http://www.apache.org/licenses/'}
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 http://www.apache.org/>
+{'url': 'http://www.apache.org/'}
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://s.apache.org/nutch_2.3.1> from <GET http://s.apache.org/nutch_2.3.1>
+2017-01-30 16:09:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/version_control.html>
+{'url': 'https://nutch.apache.org/version_control.html'}
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://wiki.apache.org/nutch/FAQ> from <GET http://wiki.apache.org/nutch/FAQ>
+2017-01-30 16:09:12 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET https://cwiki.apache.org/confluence/display/robots.txt> from <GET https://cwiki.apache.org/robots.txt>
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (404) <GET https://cwiki.apache.org/confluence/display/robots.txt> (referer: None)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12323285> from <GET https://s.apache.org/LPB>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12323285>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12333328> from <GET https://s.apache.org/nutch1.12>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12333328>
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://builds.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://builds.apache.org/view/M-R/view/Nutch/>
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/javadoc.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324325> from <GET https://s.apache.org/nutch_2.3>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12327187> from <GET https://s.apache.org/nutch10>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12327187>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324325>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324611> from <GET https://s.apache.org/1.9-release>
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://issues.apache.org/jira/browse/NUTCH/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324611>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324652> from <GET https://s.apache.org/PGa>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324652>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12329358> from <GET https://s.apache.org/nutch11>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12329358>
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/javadoc.html>
+{'url': 'https://nutch.apache.org/javadoc.html'}
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://cwiki.apache.org/confluence/display/solr/SolrCloud> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (301) to <GET http://lucene.apache.org/solr/> from <GET http://lucene.apache.org/solr>
+2017-01-30 16:09:13 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://lucene.apache.org/solr/> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://tika.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://wiki.apache.org/nutch/> from <GET http://wiki.apache.org/nutch/>
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/FAQ> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://issues.apache.org/jira/browse/NUTCH/>
+{'url': 'https://issues.apache.org/jira/browse/NUTCH/'}
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://cwiki.apache.org/confluence/display/solr/SolrCloud>
+{'url': 'https://cwiki.apache.org/confluence/display/solr/SolrCloud'}
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://tika.apache.org/>
+{'url': 'http://tika.apache.org/'}
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/FAQ>
+{'url': 'https://wiki.apache.org/nutch/FAQ'}
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/credits.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324326> from <GET https://s.apache.org/oHY>
+2017-01-30 16:09:13 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12324326>
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/credits.html>
+{'url': 'https://nutch.apache.org/credits.html'}
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://hadoop.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://lucene.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://hadoop.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://gora.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/>
+{'url': 'https://wiki.apache.org/nutch/'}
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://lucene.apache.org/>
+{'url': 'http://lucene.apache.org/'}
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/>
+{'url': 'https://nutch.apache.org/'}
+2017-01-30 16:09:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/mailing_lists.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:13 [scrapy.core.scraper] DEBUG: Scraped from <200 http://hadoop.apache.org/>
+{'url': 'http://hadoop.apache.org/'}
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://gora.apache.org/> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12323281> from <GET https://s.apache.org/1zE>
+2017-01-30 16:09:14 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12323281>
+2017-01-30 16:09:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12329371> from <GET https://s.apache.org/nutch_2.3.1>
+2017-01-30 16:09:14 [scrapy.downloadermiddlewares.robotstxt] DEBUG: Forbidden by robots.txt: <GET https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=10680&version=12329371>
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/mailing_lists.html>
+{'url': 'https://nutch.apache.org/mailing_lists.html'}
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://whimsy.apache.org/robots.txt> (referer: None)
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/downloads.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 http://gora.apache.org/>
+{'url': 'http://gora.apache.org/'}
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/FrontPage> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://whimsy.apache.org/board/minutes/Nutch.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/downloads.html>
+{'url': 'https://nutch.apache.org/downloads.html'}
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/FrontPage>
+{'url': 'https://wiki.apache.org/nutch/FrontPage'}
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://whimsy.apache.org/board/minutes/Nutch.html>
+{'url': 'https://whimsy.apache.org/board/minutes/Nutch.html'}
+2017-01-30 16:09:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://nutch.apache.org/bot.html> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://nutch.apache.org/bot.html>
+{'url': 'https://nutch.apache.org/bot.html'}
+2017-01-30 16:09:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://wiki.apache.org/nutch/Becoming_A_Nutch_Developer> from <GET http://wiki.apache.org/nutch/Becoming_A_Nutch_Developer>
+2017-01-30 16:09:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://wiki.apache.org/nutch/Becoming_A_Nutch_Developer> (referer: https://nutch.apache.org/)
+2017-01-30 16:09:15 [scrapy.core.scraper] DEBUG: Scraped from <200 https://wiki.apache.org/nutch/Becoming_A_Nutch_Developer>
+{'url': 'https://wiki.apache.org/nutch/Becoming_A_Nutch_Developer'}
+2017-01-30 16:09:15 [scrapy.core.engine] INFO: Closing spider (finished)
+2017-01-30 16:09:15 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/exception_count': 16,
+ 'downloader/exception_type_count/scrapy.exceptions.IgnoreRequest': 16,
+ 'downloader/request_bytes': 26397,
+ 'downloader/request_count': 102,
+ 'downloader/request_method_count/GET': 102,
+ 'downloader/response_bytes': 479021,
+ 'downloader/response_count': 102,
+ 'downloader/response_status_count/200': 47,
+ 'downloader/response_status_count/301': 12,
+ 'downloader/response_status_count/302': 14,
+ 'downloader/response_status_count/404': 29,
+ 'dupefilter/filtered': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2017, 1, 30, 22, 9, 15, 445650),
+ 'item_scraped_count': 40,
+ 'log_count/DEBUG': 180,
+ 'log_count/INFO': 24,
+ 'log_count/WARNING': 1,
+ 'offsite/domains': 20,
+ 'offsite/filtered': 54,
+ 'request_depth_max': 1,
+ 'response_received_count': 76,
+ 'scheduler/dequeued': 98,
+ 'scheduler/dequeued/memory': 98,
+ 'scheduler/enqueued': 98,
+ 'scheduler/enqueued/memory': 98,
+ 'start_time': datetime.datetime(2017, 1, 30, 22, 9, 10, 65394)}
+2017-01-30 16:09:15 [scrapy.core.engine] INFO: Spider closed (finished)
